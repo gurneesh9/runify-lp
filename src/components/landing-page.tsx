@@ -32,7 +32,7 @@ export function LandingPageComponent() {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(
-      "curl -sSL https://raw.githubusercontent.com/gurneesh9/cloudrunify/refs/heads/main/install.sh| bash",
+      "curl -sSL https://raw.githubusercontent.com/gurneesh9/cloudrunify/refs/heads/main/install.sh | bash",
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
