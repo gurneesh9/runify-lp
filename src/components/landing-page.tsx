@@ -39,8 +39,8 @@ export function LandingPageComponent() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen subtle-gradient">
-      <header className="px-4 lg:px-6 h-16 flex items-center bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700 sticky top-0 z-40">
+    <div className="flex flex-col min-h-screen subtle-gradient max-w-screen-2xl mx-auto">
+      <header className="px-4 sm:px-6 lg:px-8 h-16 flex items-center bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border-b border-slate-200 dark:border-slate-700 sticky top-0 z-40">
         <Link className="flex items-center justify-center" href="#">
           <Cloud className="h-6 w-6 text-purple-500" />
           <span className="ml-2 text-lg font-bold text-purple-700 dark:text-purple-300">
@@ -68,7 +68,7 @@ export function LandingPageComponent() {
           </Link>
         </nav>
       </header>
-      <main className="flex-1">
+      <main className="flex-1 px-4 sm:px-6 lg:px-8">
         <section className="relative w-full py-12 pb-32 md:py-24 md:pb-48 lg:py-32 lg:pb-64 xl:py-48 xl:pb-80 overflow-hidden hero-gradient">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-8 text-center relative z-10">
@@ -322,7 +322,7 @@ export function LandingPageComponent() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-white dark:bg-gray-800">
+      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 sm:px-6 lg:px-8 border-t bg-white dark:bg-gray-800">
         <div className="flex flex-col sm:flex-row items-center gap-2">
           <p className="text-xs text-gray-500 dark:text-gray-400">
             © 2024 Cloud Runify. All rights reserved.
