@@ -95,7 +95,7 @@ export function LandingPageComponent() {
                         Install Now
                       </Button>
                     </DialogTrigger>
-                    <DialogContent>
+                    <DialogContent className="sm:max-w-[600px] p-6">
                       <DialogHeader>
                         <DialogTitle>Install Cloud Runify</DialogTitle>
                         <DialogDescription>
@@ -103,8 +103,8 @@ export function LandingPageComponent() {
                           system:
                         </DialogDescription>
                       </DialogHeader>
-                      <div className="bg-gray-100 p-4 rounded-md flex justify-between items-center">
-                        <code className="text-sm">
+                      <div className="bg-gray-100 dark:bg-gray-800/50 p-6 rounded-lg flex justify-between items-center gap-4 border border-gray-200 dark:border-gray-700">
+                        <code className="text-sm font-mono whitespace-pre-wrap break-all text-gray-800 dark:text-gray-200">
                           curl -sSL
                           https://raw.githubusercontent.com/gurneesh9/cloudrunify/refs/heads/main/install.sh
                           | bash
