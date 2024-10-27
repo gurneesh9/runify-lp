@@ -105,8 +105,9 @@ export function LandingPageComponent() {
                       </DialogHeader>
                       <div className="bg-gray-100 p-4 rounded-md flex justify-between items-center">
                         <code className="text-sm">
-                          curl -sSL https://cloudrunify.example.com/install.sh |
-                          bash
+                          curl -sSL
+                          https://raw.githubusercontent.com/gurneesh9/cloudrunify/refs/heads/main/install.sh
+                          | bash
                         </code>
                         <Button
                           variant="ghost"
